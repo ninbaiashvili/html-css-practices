@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+.col {
+    border: 1px solid #ccc;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+.pdf {
+    margin: 0;
+    padding: 10px;
+    padding-bottom: 0;
+}
+.pdf li {
+    list-style: none;
+    padding: 10px 30px;
+    background-image: url(img/document.png);
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position: 7px 9px;
+}
+.morePdf {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-decoration: none;
+    color: #4a4a4a;
+}
+h4 {
+    padding: 0 15px;
+}
+h4 + p {
+    font-size: 26px;
+    padding: 0 15px;
+}
+.user {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0 15px;
+}
+.userImgWrapper {    
+    display: inline-block;
+}
+.userImgWrapper img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.user ul {
+    display: inline-block;
+    padding-left: 10px;
+    margin: 0;
+}
+.user ul li {
+    list-style: none;
+}
+.footerIcons {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+.footerIcons li {
+    list-style: none;
+    display: inline-block;
+}
+.footerIcons li a {
+    padding: 10px;
+}
+.footerIcons li:first-child a {
+    background-image: url(img/icon-1.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.footerIcons li:nth-child(2) a {
+    background-image: url(img/icon-2.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.footerIcons li:last-child a {
+    background-image: url(img/icon-3.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+.colFooter {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 0 20px;
+}
