@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+.col {
+    border: 1px solid #ccc;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+.caption {
+    padding: 10px;
+    padding-top: 0;
+}
+.caption h4 {
+    margin: 10px 0;
+    color: #222;
+}
+.caption a {
+    text-decoration: none;
+    color: #8a8a8a;
+}
